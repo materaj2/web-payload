@@ -1,7 +1,5 @@
 # web-payload  
 Portal for any payload  
-# Trick from Hack The Box
-trick from hack the box
 ## Brute force web application 
 ### Basic Authentication  
 `hydra -L usernames -P passwords -s 8080 -f <domain> http-get /`  

@@ -6,7 +6,9 @@ Portal for any payload
 `wfuzz -u http://ethereal.htb:8080 --basic alan:FUZZ -w passwords.txt`  
 ***to enumerate every subdoamin there has to be an entry for that subdomain in /etc/hosts that points to the ip of the box , that’s why I added the HOST HTTP header (-H "HOST:FUZZ.redcross.htb") , it solves the problem.***  
 ## Directory Bruteforcing
-`gobuster -w <Wordlist> -u http://10.10.10.15 -t 50 -x aspx,txt,html  `  
+`gobuster -w <Wordlist> -u http://10.10.10.15 -t 50 -x aspx,txt,html`  
+## Brute force with wfuzz  
+`wfuzz -c --hh 11 -u "https://intra.redcross.htb/pages/actions.php" -X POST -d "user=FUZZ&pass=FUZZ&action=login" -w top-usernames-shortlist.txt`  
 ## WebDav
 `davtest -url http://<IP>`  
 ### Manual  
